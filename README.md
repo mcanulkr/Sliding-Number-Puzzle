@@ -11,5 +11,6 @@ The game's different graphics and theme options increase personalization options
 \
 \
 ![1,9-1(2) kopya](https://user-images.githubusercontent.com/69786868/234339232-3f11cfa7-3633-40f7-9734-b76d2612217c.jpg)
+
 ![1,9-1(3) kopya](https://user-images.githubusercontent.com/69786868/234339284-f69576f8-c390-4d17-9c5d-9b8cd81e807d.jpg)
 
