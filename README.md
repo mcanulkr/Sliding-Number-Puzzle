@@ -6,8 +6,19 @@ Sliding Number Puzzle features various difficulty levels that are adjusted to pl
 
 The game's different graphics and theme options increase personalization options for players, while its intuitive interface allows for easy navigation.
 
+FEATURES :
+- 3x3
+- 4x4
+- 5x5
+- 6x6
+- Level System
+- Worl Ranking
+- Statistics
+- Free Mode
+
 ❗️ Ranking only works with Firebase\
 ❗️ Firebase and Google Admob codes are available but the libraries are not attached. Codes are in comment lines.
+\
 \
 \
 ![1,9-1(2) kopya](https://user-images.githubusercontent.com/69786868/234339232-3f11cfa7-3633-40f7-9734-b76d2612217c.jpg)
