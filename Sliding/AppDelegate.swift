@@ -7,14 +7,38 @@
 
 import UIKit
 import CoreData
+//import FirebaseCore
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
+    var board4x4 : Board4x4?
+    var board5x5 : Board5x5?
+    var board3x3 : Board3x3?
+    var board6x6 : Board6x6?
+    var board3x3Back : Board3x3Back?
+    var board4x4Back : Board4x4Back?
+    var board5x5Back : Board5x5Back?
+    var board6x6Back : Board6x6Back?
+    
+    // Since both the Board View and the View Controller will want access to this object, let the AppDelegate object own it
+    let numShuffles = 250
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        NetworkMonitor.shared.startMonitoring()
+        
+        self.board4x4 = Board4x4()
+        self.board5x5 = Board5x5()
+        self.board3x3 = Board3x3()
+        self.board6x6 = Board6x6()
+        self.board3x3Back = Board3x3Back()
+        self.board4x4Back = Board4x4Back()
+        self.board5x5Back = Board5x5Back()
+        self.board6x6Back = Board6x6Back()
+        //FirebaseApp.configure()
         return true
     }
 
